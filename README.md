@@ -21,7 +21,7 @@ Simple editor.
 + SIGNAL & SLOT
 + QObject::connect: `connect(const QObject *sender, const char *signal, const QObject *receiver, const char *method, Qt::ConnectionType type = Qt::AutoConnection)`
 
-## 2-4_TextEditor.png
+## 2-4_TextEditor
 Text editor.
 
 ![](./README/2-4_TextEditor.png)
@@ -40,7 +40,7 @@ Text editor.
 +  QMessageBox
 +  QFile + QIODevice & QFile + QTextStream to read and write text file
 
-## 4-3_SpinBox_Sample.png
+## 4-3_SpinBox_Sample
 Simple price caculator.
 
 ![](./README/4-3_SpinBox_Sample.png)
@@ -94,7 +94,7 @@ Use of time Classes.
   ```
 + Date/Time Edit
 
-## 4-7_ItemWidget.png
+## 4-7_ItemWidget
 Use of item-based or model-view Widgets.
 
 ![](./README/4-7_ItemWidget.png)
