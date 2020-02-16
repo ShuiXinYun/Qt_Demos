@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>res/bold_128px.png</file>
+        <file>res/copy_128px.png</file>
+        <file>res/cut_128px.png</file>
+        <file>res/exit_128px.png</file>
+        <file>res/file_128px.png</file>
+        <file>res/italic_128px.png</file>
+        <file>res/open_folder_128px.png</file>
+        <file>res/paste_128px.png</file>
+        <file>res/underline_128px.png</file>
+        <file>res/clear_128px.png</file>
+        <file>res/font_style_128px.png</file>
+    </qresource>
+</RCC>

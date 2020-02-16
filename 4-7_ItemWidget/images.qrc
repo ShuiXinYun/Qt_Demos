@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/add.png</file>
+        <file>resource/delete.png</file>
+        <file>resource/exit.png</file>
+        <file>resource/initialize.png</file>
+        <file>resource/insert.png</file>
+        <file>resource/list.ico</file>
+        <file>resource/table.ico</file>
+        <file>resource/tree.ico</file>
+        <file>resource/select_all.ico</file>
+        <file>resource/select_none.ico</file>
+        <file>resource/clear.png</file>
+        <file>resource/select_invert.ico</file>
+        <file>resource/resize.png</file>
+        <file>resource/table_view.ico</file>
+    </qresource>
+</RCC>
