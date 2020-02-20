@@ -119,3 +119,30 @@ Use of item-based or model-view Widgets.
   dir.setPath(path);
   return dir.entryList(QDir::Files);
   ```
+  
+## 5-1_QFileSystemModel
+Use of QFileSystemModel to show the file-system.
+
+![](./README/5-1_QFileSystemModel.png)
++ QFileSystemModel: setRootPath, **index(QString path)**, size(), type(), filePath
++ QTreeView/QTableView/QListView: setModel,setRootIndex
+  ```qt
+  file_sys_model->setRootPath(path);
+  qDebug()<<"file_sys_model root path:"<<file_sys_model->rootPath();
+  ui->treeView->setRootIndex(file_sys_model->index(path));//设置treeView根节点为选定目录
+  ui->tableView->setRootIndex(file_sys_model->index(path));
+  ui->tableView->resizeColumnsToContents();
+  ui->tableView->resizeRowsToContents();
+  ui->listView->setRootIndex(file_sys_model->index(path));
+  ```
++ QDesktopServices: `QDesktopServices::openUrl(QUrl(file_sys_model->filePath(index)));//listView item双击事件, 调用系统程序打开文件`
+
+## 5-2_QStringListModel
+Use of QStringListModel + QListView to show a csv file.
+
+![](./README/5-2_QStringListModel.png)
++ QStringListModel: setStringList, insertRow(), setData(), removeRow(), removeRows(),**index(int row)**
++ QModelIndex: QModelIndex.row()
++ Bind the QStringListModel to QListView using QListView.setModel(), the QListView changes with the QStringListModel,
++ QListView: currentIndex(), setCurrentIndex()
+

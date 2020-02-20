@@ -259,6 +259,8 @@ void MainWindow::on_act_table_initialize_triggered()
                 }
             }
             qDebug()<<"TableWidget initialize "<<v.size()*v[0].size()<<" items cost time:"<<t.elapsed()<<"ms";
+            ui->tableView->resizeColumnsToContents();
+            ui->tableView->resizeRowsToContents();
         }
 
     }
