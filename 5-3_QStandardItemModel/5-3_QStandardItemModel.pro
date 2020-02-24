@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2020-02-19T20:15:46
+# Project created by QtCreator 2020-02-20T20:07:27
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 5-2_QStringListModel
+TARGET = 5-3_QStandardItemModel
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,13 +26,15 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    qstringlistmodeldemo.cpp
+        mystandarditemmodel.cpp \
+    countrypopulation.cpp
 
 HEADERS += \
-    qstringlistmodeldemo.h
+        mystandarditemmodel.h \
+    countrypopulation.h
 
 FORMS += \
-    qstringlistmodeldemo.ui
+        mystandarditemmodel.ui
 RC_ICONS = ICON.ico
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

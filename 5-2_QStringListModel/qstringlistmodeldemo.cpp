@@ -1,22 +1,22 @@
-#include "qstinglistmodeldemo.h"
-#include "ui_qstinglistmodeldemo.h"
+#include "QStringListModelDemo.h"
+#include "ui_QStringListModelDemo.h"
 
-QStingListModelDemo::QStingListModelDemo(QWidget *parent) :
+QStringListModelDemo::QStringListModelDemo(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::QStingListModelDemo)
+    ui(new Ui::QStringListModelDemo)
 {
     ui->setupUi(this);
     str_list_model = new QStringListModel();
     ui->listView->setModel(str_list_model);
 }
 
-QStingListModelDemo::~QStingListModelDemo()
+QStringListModelDemo::~QStringListModelDemo()
 {
     delete ui;
     delete str_list_model;
 }
 
-void QStingListModelDemo::on_btn_initialize_clicked()
+void QStringListModelDemo::on_btn_initialize_clicked()
 {
     //read csv
     QString dir = QDir::currentPath();
@@ -51,7 +51,7 @@ void QStingListModelDemo::on_btn_initialize_clicked()
     file.close();
 }
 
-void QStingListModelDemo::on_btn_append_clicked()
+void QStringListModelDemo::on_btn_append_clicked()
 {
     str_list_model->insertRow(str_list_model->rowCount());
     QModelIndex index = str_list_model->index(str_list_model->rowCount()-1);
@@ -59,7 +59,7 @@ void QStingListModelDemo::on_btn_append_clicked()
     ui->listView->setCurrentIndex(index);
 }
 
-void QStingListModelDemo::on_btn_insert_clicked()
+void QStringListModelDemo::on_btn_insert_clicked()
 {
     QModelIndex index = ui->listView->currentIndex();
     str_list_model->insertRow(index.row());//此处通过index获取row
@@ -67,13 +67,13 @@ void QStingListModelDemo::on_btn_insert_clicked()
     ui->listView->setCurrentIndex(index);
 }
 
-void QStingListModelDemo::on_btn_delete_clicked()
+void QStringListModelDemo::on_btn_delete_clicked()
 {
     QModelIndex index = ui->listView->currentIndex();
     str_list_model->removeRow(index.row());
 }
 
-void QStingListModelDemo::on_btn_clear_clicked()
+void QStringListModelDemo::on_btn_clear_clicked()
 {
     str_list_model->removeRows(0, str_list_model->rowCount());
 }

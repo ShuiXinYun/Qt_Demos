@@ -146,3 +146,13 @@ Use of QStringListModel + QListView to show a csv file.
 + Bind the QStringListModel to QListView using QListView.setModel(), the QListView changes with the QStringListModel,
 + QListView: currentIndex(), setCurrentIndex()
 
+## 5-3_QStandardItemModel
+
+![](./README/5-3_QStandardItemModel.png)
+
++ QStandardItemModel
++ Bind QStandardItemModel to QTableView
++ QTextStream: read csv file
++ CountryPopulation class
++ QDataStream: export TableView data and read binary data to TableView, override >> & << operator to read and write data from and to CountryPopulation objects.
++ Append/Insert/Delete/Modify the table, set the index on focus

@@ -1,5 +1,5 @@
-#ifndef QSTINGLISTMODELDEMO_H
-#define QSTINGLISTMODELDEMO_H
+#ifndef QSTRINGLISTMODELDEMO_H
+#define QSTRINGLISTMODELDEMO_H
 
 #include <QWidget>
 #include <QtCore>
@@ -8,16 +8,16 @@
 #include <QMessageBox>
 
 namespace Ui {
-class QStingListModelDemo;
+class QStringListModelDemo;
 }
 
-class QStingListModelDemo : public QWidget
+class QStringListModelDemo : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit QStingListModelDemo(QWidget *parent = nullptr);
-    ~QStingListModelDemo();
+    explicit QStringListModelDemo(QWidget *parent = nullptr);
+    ~QStringListModelDemo();
 
 private slots:
     void on_btn_initialize_clicked();
@@ -31,8 +31,8 @@ private slots:
     void on_btn_clear_clicked();
 
 private:
-    Ui::QStingListModelDemo *ui;
+    Ui::QStringListModelDemo *ui;
     QStringListModel* str_list_model;
 };
 
-#endif // QSTINGLISTMODELDEMO_H
+#endif // QSTRINGLISTMODELDEMO_H

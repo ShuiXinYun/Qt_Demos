@@ -1,4 +1,4 @@
-#include "qstinglistmodeldemo.h"
+#include "QStringListModelDemo.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     QTextCodec *codec = QTextCodec::codecForName("UTF-8");
     QTextCodec::setCodecForLocale(codec);
     QApplication a(argc, argv);
-    QStingListModelDemo w;
+    QStringListModelDemo w;
     w.show();
 
     return a.exec();
