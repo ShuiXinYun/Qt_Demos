@@ -156,3 +156,13 @@ Use of QStringListModel + QListView to show a csv file.
 + CountryPopulation class
 + QDataStream: export TableView data and read binary data to TableView, override >> & << operator to read and write data from and to CountryPopulation objects.
 + Append/Insert/Delete/Modify the table, set the index on focus
+
+## 6-1_Dialog
+
+![](./README/6-1_Dialog.png)
+
++ QFileDialog
++ QMessageBox
++ QFontDialog
++ QColorDialog
++ QInputDialog

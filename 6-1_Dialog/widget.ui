@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_11">
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="font">
+       <font>
+        <family>Microsoft JhengHei UI Light</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>QFileDialog</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="btn_getOpenFileName">
+             <property name="minimumSize">
+              <size>
+               <width>170</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft JhengHei UI Light</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>getOpenFileName</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_getOpenFileNames">
+             <property name="minimumSize">
+              <size>
+               <width>170</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft JhengHei UI Light</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>getOpenFileNames</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="btn_getSaveFileName">
+             <property name="minimumSize">
+              <size>
+               <width>170</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft JhengHei UI Light</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>getSaveFileName</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_getExistingDirectory">
+             <property name="minimumSize">
+              <size>
+               <width>170</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Microsoft JhengHei UI Light</family>
+              </font>
+             </property>
+             <property name="text">
+              <string>getExistingDirectory</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit_fileDialog"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="font">
+       <font>
+        <family>Microsoft JhengHei UI Light</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>QColorDialog</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="btn_colorDialog">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>QColorDialog</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTextEdit" name="textEdit_color">
+           <property name="minimumSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>50</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="font">
+       <font>
+        <family>Microsoft JhengHei UI Light</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>QFontDialog</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="btn_fontDialog">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>QFontDialog</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEditFont">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="font">
+       <font>
+        <family>Microsoft JhengHei UI Light</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>QMessageDialog</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QPushButton" name="btn_MsgInformation">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgInformation</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_MsgQuestion">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgQuestion</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_MsgWarning">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgWarning</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QPushButton" name="btn_MsgCritical">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgCritical</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_MsgAbout">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgAbout</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_MsgAboutQt">
+           <property name="minimumSize">
+            <size>
+             <width>130</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>MsgAboutQt</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="font">
+       <font>
+        <family>Microsoft JhengHei UI Light</family>
+       </font>
+      </property>
+      <property name="title">
+       <string>QInputDialog</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QPushButton" name="btn_inputDialog_getText">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>getText</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_inputDialog_getInt">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>getInt</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_inputDialog_getDouble">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>getDouble</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="QPushButton" name="btn_inputDialog_getMultiLineText">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>getMultiLineText</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_inputDialog_getItem">
+           <property name="font">
+            <font>
+             <family>Microsoft JhengHei UI Light</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>getItem</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="textEdit_input">
+         <property name="font">
+          <font>
+           <family>Microsoft JhengHei UI Light</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
