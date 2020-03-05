@@ -154,7 +154,9 @@ Use of QStringListModel + QListView to show a csv file.
 + Bind QStandardItemModel to QTableView
 + QTextStream: read csv file
 + CountryPopulation class
-+ QDataStream: export TableView data and read binary data to TableView, override >> & << operator to read and write data from and to CountryPopulation objects.
++ QDataStream: 
+  + export TableView data and read data to TableView using qt stream, override >> & << operator to read and write data from and to CountryPopulation objects.
+  + export TableView data and read data to TableView using binary format.
 + Append/Insert/Delete/Modify the table, set the index on focus
 
 ## 6-1_Dialog

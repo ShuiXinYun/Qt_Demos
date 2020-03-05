@@ -2,7 +2,6 @@
 #define COUNTRYPOPULATION_H
 #include <QtCore>
 
-const int HEADERSIZE=5;
 
 class CountryPopulation
 {

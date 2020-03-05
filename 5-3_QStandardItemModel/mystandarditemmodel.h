@@ -6,6 +6,7 @@
 #include <QtGui>
 #include <QFileDialog>
 #include <QMessageBox>
+#include <QInputDialog>
 #include "countrypopulation.h"
 
 namespace Ui {
@@ -38,6 +39,11 @@ private slots:
 private:
     Ui::MyStandardItemModel *ui;
     QStandardItemModel* tableview_model;
+
+    bool read_q_stream(const QString& file_path);
+    bool read_binary(const QString& file_path);
+    bool export_q_stream(const QString& file_path, const QList<CountryPopulation>);
+    bool export_binary(const QString& file_path, const QList<CountryPopulation>);
 };
 
 #endif // MYSTANDARDITEMMODEL_H
