@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/csv.png</file>
+        <file>resource/exit.png</file>
+        <file>resource/zoom_in.png</file>
+        <file>resource/zoom_out.png</file>
+        <file>resource/zoom_to_extents.png</file>
+    </qresource>
+</RCC>
